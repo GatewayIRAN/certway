@@ -1,0 +1,37 @@
+[workspace]
+members = ["crates/core", "crates/cli"]
+resolver = "2"
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/GatewayIRAN/certway"
+
+[workspace.dependencies]
+rustls = { version = "0.23.43", default-features = false, features = ["ring", "std", "tls12"] }
+rustls-pki-types = "1"
+tinyjson = "2.5.1"
+ring = "0.17.14"
+zeroize = { version = "1.9.0", features = ["std"] }
+rcgen = { version = "0.14.8", default-features = false, features = ["crypto", "ring", "pem"] }
+libc = "0.2.189"
+# PKCS#12 export only (`certway_core::pkcs12`) — ring 0.17.14 has no CBC
+# mode, only AEAD, and PBES2's AES-256-GCM combination is not something
+# OpenSSL itself can decrypt (confirmed against OpenSSL 3.5.5; see the
+# stage report). Every other cipher use in this codebase (TLS, JWS
+# signing) stays on ring — nothing outside `pkcs12` may import these.
+aes = { version = "0.9.2", features = ["zeroize"] }
+cbc = { version = "0.2.1", features = ["zeroize"] }
+
+[profile.release]
+opt-level = "z"
+lto = "fat"
+codegen-units = 1
+strip = true
+
+# The profile that 'dist' will build with. Same as [profile.release]:
+# thin LTO measurably grows the binary (rust-binary-size-reference.md),
+# and a small static binary is this project's headline claim.
+[profile.dist]
+inherits = "release"

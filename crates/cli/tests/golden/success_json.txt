@@ -1,0 +1,6 @@
+{"step":"account","state":"done","ms":200,"detail":"new"}
+{"step":"order","state":"done","ms":300,"detail":"1 domain"}
+{"step":"challenge","state":"done","ms":150,"detail":"http-01 on :80"}
+{"step":"validate","state":"done","ms":6100,"detail":"1 of 1 authorized"}
+{"step":"certificate","state":"done","ms":900,"detail":"issued"}
+{"result":"issued","domains":["example.com"],"fullchain":"./certs/fullchain.pem","key":"./certs/privkey.pem"}

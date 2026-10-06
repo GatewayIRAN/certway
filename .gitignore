@@ -1,0 +1,13 @@
+/target
+docs/
+
+# Private keys and generated certificates
+*.key
+privkey*.pem
+fullchain*.pem
+cert*.pem
+chain*.pem
+account*.pem
+
+# The embedded trust anchor is public and build-required
+!assets/isrgrootx1.pem
