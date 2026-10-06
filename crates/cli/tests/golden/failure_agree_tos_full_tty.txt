@@ -1,0 +1,13 @@
+
+  certway 0.1.0[2m · Let's Encrypt (staging)[0m
+
+  [31m✗[0m account        example.com
+
+    You must accept the Let's Encrypt Terms of Service.
+
+      [2mmust agree to terms of service[0m
+
+    Pass --agree-tos, or run without --quiet to be asked.
+
+  No certificate was issued. Nothing was changed.
+

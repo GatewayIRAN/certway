@@ -1,0 +1,23 @@
+
+  certway 0.1.0 - Let's Encrypt (staging)
+
+  + account        existing                    a8f3c21
+  + order          1 domain
+  + challenge      http-01 on :80
+  x validate       example.com
+
+    Let's Encrypt could not confirm you control this domain.
+
+      example.com
+
+    Most likely one of:
+
+      * the http-01 response was not reachable from the internet
+      * the token file was removed before Let's Encrypt checked it
+
+    Check from outside your network:
+
+      curl -sI http://example.com/.well-known/acme-challenge/test
+
+  No certificate was issued. Nothing was changed.
+

@@ -1,0 +1,28 @@
+{
+  "pebble": {
+    "listenAddress": "0.0.0.0:14000",
+    "managementListenAddress": "0.0.0.0:15000",
+    "certificate": "test/certs/localhost/cert.pem",
+    "privateKey": "test/certs/localhost/key.pem",
+    "httpPort": 5002,
+    "tlsPort": 5001,
+    "ocspResponderURL": "",
+    "externalAccountBindingRequired": false,
+    "domainBlocklist": ["blocked-domain.example"],
+    "retryAfter": {
+        "authz": 3,
+        "order": 5
+    },
+    "keyAlgorithm": "ecdsa",
+    "profiles": {
+      "default": {
+        "description": "Stage 3b test profile — 90-day validity, same as Pebble's stock default.",
+        "validityPeriod": 7776000
+      },
+      "shortlived": {
+        "description": "Stage 3b test profile — also 90-day validity here, deliberately identical to \"default\". Pebble picks a profile at random per order when the client doesn't request one explicitly (verified live: a certway newOrder with no `profile` field landed on \"shortlived\" as often as \"default\", nowhere documented in docs/ref/pebble-v2.10.1.md). Scenario 8 needs a certificate that is reliably NOT within the 30-day renewal window regardless of which profile Pebble happens to pick, so both profiles carry the same long validity here.",
+        "validityPeriod": 7776000
+      }
+    }
+  }
+}

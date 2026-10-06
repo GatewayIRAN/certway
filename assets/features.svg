@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 346" width="1200" height="346" role="img" aria-label="Feature cards: 2.1 MB static binary; ECDSA P-256 keys with ring; CA-scheduled renewal via ARI; safer nginx edits; DNS on your terms; JSON everywhere.">
+<title>certway features</title><defs>
+<linearGradient id="ic0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F59E0B"/><stop offset="1" stop-color="#FCD34D"/></linearGradient>
+<linearGradient id="ic1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#C4B5FD"/></linearGradient>
+<linearGradient id="ic2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#34D399"/><stop offset="1" stop-color="#6EE7B7"/></linearGradient>
+<linearGradient id="ic3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60A5FA"/><stop offset="1" stop-color="#93C5FD"/></linearGradient>
+<linearGradient id="ic4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#67E8F9"/></linearGradient>
+<linearGradient id="ic5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F472B6"/><stop offset="1" stop-color="#F9A8D4"/></linearGradient>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; } </style>
+</defs>
+<rect x="19.5" y="0.5" width="373" height="163" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="41" y="20" width="44" height="44" rx="13" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".38"/>
+<g transform="translate(51 30)" fill="none" stroke="#F59E0B" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 2.8l8.6 4.6v9.2L12 21.2 3.4 16.6V7.4z"/>
+<path d="M3.6 7.5 12 11.9l8.4-4.4"/>
+<path d="M12 11.9V21"/>
+</g>
+<text x="99" y="49" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#F0F6FC">2.1 MB, static</text>
+<text x="41" y="96" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">One file, no runtime — drops</text>
+<text x="41" y="118" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">straight into FROM scratch.</text>
+<rect x="41" y="132" width="106" height="22" rx="11" fill="#F59E0B" fill-opacity=".13"/>
+<text x="53" y="147" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#F59E0B">FROM scratch</text>
+<rect x="413.5" y="0.5" width="373" height="163" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="435" y="20" width="44" height="44" rx="13" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".38"/>
+<g transform="translate(445 30)" fill="none" stroke="#A78BFA" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="7.5" cy="16.5" r="3.9"/>
+<path d="M10.4 13.6 19.5 4.5"/>
+<path d="M16.6 7.4l2.4 2.4"/>
+<path d="M14.1 9.9l2.4 2.4"/>
+</g>
+<text x="493" y="49" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#F0F6FC">ECDSA P-256 keys</text>
+<text x="435" y="96" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">ring, zeroized at drop, keys</text>
+<text x="435" y="118" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">and files written 0600.</text>
+<rect x="435" y="132" width="120" height="22" rx="11" fill="#A78BFA" fill-opacity=".13"/>
+<text x="447" y="147" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#A78BFA">ring · zeroize</text>
+<rect x="807.5" y="0.5" width="373" height="163" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="829" y="20" width="44" height="44" rx="13" fill="#34D399" fill-opacity=".14" stroke="#34D399" stroke-opacity=".38"/>
+<g transform="translate(839 30)" fill="none" stroke="#34D399" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M21 12a9 9 0 0 0-9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+<path d="M3 3v5h5"/>
+<path d="M3 12a9 9 0 0 0 9 9 9.75 9.75 0 0 0 6.74-2.74L21 16"/>
+<path d="M21 21v-5h-5"/>
+</g>
+<text x="887" y="49" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#F0F6FC">CA-scheduled renewal</text>
+<text x="829" y="96" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">ARI (RFC 9773) straight from</text>
+<text x="829" y="118" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">the CA, 30-day fallback.</text>
+<rect x="829" y="132" width="141" height="22" rx="11" fill="#34D399" fill-opacity=".13"/>
+<text x="841" y="147" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#34D399">ARI · 30d backoff</text>
+<rect x="19.5" y="182.5" width="373" height="163" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="41" y="202" width="44" height="44" rx="13" fill="#60A5FA" fill-opacity=".14" stroke="#60A5FA" stroke-opacity=".38"/>
+<g transform="translate(51 212)" fill="none" stroke="#60A5FA" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+<path d="m9 12 2 2 4-4"/>
+</g>
+<text x="99" y="231" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#F0F6FC">Safer nginx edits</text>
+<text x="41" y="278" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">Refuses ambiguity; every edit</text>
+<text x="41" y="300" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">is transactional, or rolled back.</text>
+<rect x="41" y="314" width="120" height="22" rx="11" fill="#60A5FA" fill-opacity=".13"/>
+<text x="53" y="329" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#60A5FA">nginx -t gated</text>
+<rect x="413.5" y="182.5" width="373" height="163" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="435" y="202" width="44" height="44" rx="13" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".38"/>
+<g transform="translate(445 212)" fill="none" stroke="#22D3EE" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="12" cy="12" r="9"/>
+<ellipse cx="12" cy="12" rx="4.2" ry="9"/>
+<path d="M3 12h18"/>
+</g>
+<text x="493" y="231" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#F0F6FC">DNS on your terms</text>
+<text x="435" y="278" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">Cloudflare built in, hooks</text>
+<text x="435" y="300" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">for every other provider.</text>
+<rect x="435" y="314" width="134" height="22" rx="11" fill="#22D3EE" fill-opacity=".13"/>
+<text x="447" y="329" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#22D3EE">HTTP-01 · DNS-01</text>
+<rect x="807.5" y="182.5" width="373" height="163" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="829" y="202" width="44" height="44" rx="13" fill="#F472B6" fill-opacity=".14" stroke="#F472B6" stroke-opacity=".38"/>
+<g transform="translate(839 212)" fill="none" stroke="#F472B6" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round">
+<path d="M10 3.5Q7.5 3.5 7.5 6.5Q7.5 9.5 5 12Q7.5 14.5 7.5 17.5Q7.5 20.5 10 20.5"/>
+<path d="M14 3.5Q16.5 3.5 16.5 6.5Q16.5 9.5 19 12Q16.5 14.5 16.5 17.5Q16.5 20.5 14 20.5"/>
+<circle cx="12" cy="10.6" r="1.15" fill="#F472B6" stroke="none"/>
+<circle cx="12" cy="13.4" r="1.15" fill="#F472B6" stroke="none"/>
+</g>
+<text x="887" y="231" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="18.5" font-weight="700" fill="#F0F6FC">JSON everywhere</text>
+<text x="829" y="278" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">One object per line on every</text>
+<text x="829" y="300" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="400" fill="#93A0B4">command except install.</text>
+<rect x="829" y="314" width="113" height="22" rx="11" fill="#F472B6" fill-opacity=".13"/>
+<text x="841" y="329" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace" font-size="11.5" font-weight="600" fill="#F472B6">--json on all</text>
+</svg>

@@ -1,0 +1,4 @@
+{"step":"account","state":"done","ms":200,"detail":"new"}
+{"step":"order","state":"done","ms":300,"detail":"1 domain"}
+{"step":"challenge","state":"failed","error":"privileged_port","detail":"certway needs permission to use port 80."}
+{"result":"failed","stage":"challenge","error":"privileged_port","quota_used":false}

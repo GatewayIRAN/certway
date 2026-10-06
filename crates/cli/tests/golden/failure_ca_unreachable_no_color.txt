@@ -1,0 +1,16 @@
+
+  certway 0.1.0 · Let's Encrypt (staging)
+
+  ✗ account        acme-staging-v02.api.letsen…
+
+    Let's Encrypt could not reach your server.
+
+      connect to acme-staging-v02.api.letsencrypt.org:443 failed: connection refused
+
+    Most likely one of:
+
+      · Let's Encrypt's API is temporarily unreachable from this network
+      · a firewall is blocking outbound HTTPS
+
+  No certificate was issued. Nothing was changed.
+

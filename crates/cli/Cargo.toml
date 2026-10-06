@@ -1,0 +1,12 @@
+[package]
+name = "certway"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+certway-core = { path = "../core" }
+ring = { workspace = true }
+zeroize = { workspace = true }
+libc = { workspace = true }

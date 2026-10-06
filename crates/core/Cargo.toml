@@ -1,0 +1,17 @@
+[package]
+name = "certway-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+
+[dependencies]
+rustls = { workspace = true }
+rustls-pki-types = { workspace = true }
+tinyjson = { workspace = true }
+ring = { workspace = true }
+zeroize = { workspace = true }
+rcgen = { workspace = true }
+# PKCS#12 export only — see the workspace Cargo.toml's comment on these two.
+aes = { workspace = true }
+cbc = { workspace = true }

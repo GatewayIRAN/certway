@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 208" width="1200" height="208" role="img" aria-label="certway by the numbers: 2.1 MB static binary, 9 dependencies, 0 unsafe, 625 tests passing">
+<title>certway by the numbers</title><defs>
+<linearGradient id="pnl" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0F24"/><stop offset=".55" stop-color="#0E1533"/><stop offset="1" stop-color="#131A3E"/>
+    </linearGradient>
+<linearGradient id="n0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7DE8FF"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+<linearGradient id="n1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C4B5FD"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient>
+<linearGradient id="n2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#86EFAC"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
+<linearGradient id="n3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FDE68A"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } </style>
+</defs>
+<rect x="1" y="1" width="1198" height="206" rx="22" fill="url(#pnl)"/>
+<g opacity=".5"><path d="M0 0H1200" stroke="#FFFFFF" stroke-opacity=".05"/>
+<path d="M0 207H1200" stroke="#FFFFFF" stroke-opacity=".05"/></g>
+<text x="150" y="66" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#7D8590" letter-spacing="2.6" text-anchor="middle">STATIC BINARY</text>
+<text x="150" y="130" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" fill="url(#n0)" letter-spacing="-1" text-anchor="middle">2.1 MB</text>
+<text x="150" y="166" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#8B94A8" text-anchor="middle">musl · runs in FROM scratch</text>
+<line x1="300" y1="46" x2="300" y2="162" stroke="#FFFFFF" stroke-opacity=".09"/>
+<text x="450" y="66" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#7D8590" letter-spacing="2.6" text-anchor="middle">DEPENDENCIES</text>
+<text x="450" y="130" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" fill="url(#n1)" letter-spacing="-1" text-anchor="middle">9</text>
+<text x="450" y="166" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#8B94A8" text-anchor="middle">auditable in one screen</text>
+<line x1="600" y1="46" x2="600" y2="162" stroke="#FFFFFF" stroke-opacity=".09"/>
+<text x="750" y="66" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#7D8590" letter-spacing="2.6" text-anchor="middle">UNSAFE CODE</text>
+<text x="750" y="130" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" fill="url(#n2)" letter-spacing="-1" text-anchor="middle">0</text>
+<text x="750" y="166" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#8B94A8" text-anchor="middle">forbidden by the compiler</text>
+<line x1="900" y1="46" x2="900" y2="162" stroke="#FFFFFF" stroke-opacity=".09"/>
+<text x="1050" y="66" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#7D8590" letter-spacing="2.6" text-anchor="middle">TESTS · 0 FAIL</text>
+<text x="1050" y="130" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="54" font-weight="800" fill="url(#n3)" letter-spacing="-1" text-anchor="middle">625</text>
+<text x="1050" y="166" font-family="'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" fill="#8B94A8" text-anchor="middle">workspace + policy gates</text>
+<rect x=".5" y=".5" width="1199" height="207" rx="21.5" fill="none" stroke="#FFFFFF" stroke-opacity=".10"/>
+</svg>

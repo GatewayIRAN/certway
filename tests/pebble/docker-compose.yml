@@ -1,0 +1,60 @@
+name: certway-pebble
+services:
+  pebble:
+    image: ghcr.io/letsencrypt/pebble:2.10.1
+    container_name: certway-pebble
+    command: -config /test/config/pebble-config.json -dnsserver challtestsrv:8053
+    ports: ["14000:14000", "15000:15000"]
+    environment:
+      # PEBBLE_VA_NOSLEEP is deliberately NOT set, despite ARCH-SPEC §16.4's
+      # "fast runs" recommendation: verified live, it races ahead of Docker
+      # Desktop's host-gateway network path (WSL -> Windows -> Desktop VM ->
+      # container) becoming routable, and every validation attempt gets
+      # "connection refused" even though the HTTP-01 listener is genuinely
+      # up (confirmed reachable via a throwaway container at the exact same
+      # moment). Pebble's small default random delay is what makes the path
+      # reliable here — an environment quirk, not a certway bug. Every test
+      # in pebble_e2e.rs restarts pebble with its own explicit env anyway,
+      # so this default only matters for a manual `docker compose up`.
+      PEBBLE_WFE_NONCEREJECT: "0"
+    depends_on:
+      - challtestsrv
+  challtestsrv:
+    image: ghcr.io/letsencrypt/pebble-challtestsrv:2.10.1
+    container_name: certway-challtestsrv
+    # -defaultIPv4 deliberately omitted: the task's suggested "host-gateway"
+    # value is not a real IP, and challtestsrv's flag takes net.ParseIP
+    # literally — passing a hostname there parses to a zero A record
+    # (verified live: query answers NOERROR/ancount=0, not the intended
+    # gateway address). Domains are pointed at the host explicitly per test
+    # via the /add-a management API instead (see pebble_e2e.rs).
+    #
+    # -dnsserver listens on both :8053 (pebble's own "-dnsserver
+    # challtestsrv:8053" hookup above, unchanged) and :53 — the second is
+    # for certway's own DNS-01 client (crates/core/src/dns.rs), which only
+    # ever queries port 53 (RFC 1035 defines no port syntax for --resolver,
+    # so there is no flag to point it at :8053 instead). Verified live in
+    # this project's own dev sandbox: publishing :53 to the *host* is
+    # blocked by something in the WSL2/Docker Desktop networking stack
+    # (confirmed with a raw UDP client against both loopback and the WSL
+    # VM's own address — see the final report) — but container-to-container
+    # traffic on the bridge network this compose file defines never touches
+    # that path, so pebble_dns01_e2e.rs's scenarios run the certway binary
+    # *inside* a throwaway container on this same network instead of on the
+    # host, reaching "challtestsrv:53" directly.
+    command: -dnsserver ":53,:8053" -defaultIPv6 "" -doh ""
+    # 8055 (management API) and 8053/udp are published to the host.
+    # 8053 is for pebble_dns01_e2e.rs's *own* independent verification
+    # (a raw UDP TXT query written by hand in the test itself, deliberately
+    # not using certway_core::dns — same "assertions independent of
+    # certway's own code" rule pebble_e2e.rs already follows) that a
+    # cleanup actually removed a record; it is never the port certway
+    # itself queries. challtestsrv's own 5002/5001 HTTP-01/TLS-ALPN-01 stub
+    # listeners are still never published — certway's own binary binds host
+    # port 5002 directly for the real HTTP-01 responder, so publishing
+    # challtestsrv's 5002 too would race for the same host port (verified
+    # live: "Address already in use").
+    ports: ["8055:8055", "8053:8053/udp"]
+networks:
+  default:
+    name: certway-pebble-net

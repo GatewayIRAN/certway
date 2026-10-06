@@ -1,0 +1,14 @@
+
+  certway 0.1.0 · Let's Encrypt (staging)
+
+  ✓ account        new                         a8f3c21
+  ✓ order          1 domain
+  ✓ challenge      http-01 on :80
+  ✓ validate       1 of 1 authorized           6.1s
+  ✓ certificate    issued
+
+    fullchain   ./certs/fullchain.pem
+    key         ./certs/privkey.pem
+
+    Run `certway install` to renew automatically.
+

@@ -1,0 +1,17 @@
+
+  certway 0.1.0[2m · Let's Encrypt (staging)[0m
+
+  [32m✓[0m account        new                         a8f3c21
+  [32m✓[0m order          1 domain
+  [31m✗[0m challenge      port 80
+
+    certway needs permission to use port 80.
+
+      [2mbind 0.0.0.0:80 → permission denied[0m
+
+    Run with sudo, or grant the capability once:
+
+      [36msudo setcap CAP_NET_BIND_SERVICE=+eip $(which certway)[0m
+
+  No certificate was issued. Nothing was changed.
+
