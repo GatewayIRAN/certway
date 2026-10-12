@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 292" width="1200" height="292" role="img" aria-label="certway lifecycle: register, order, challenge, validate, certificate, install - then renewal loops back">
+<title>certway lifecycle: register, order, challenge, validate, certificate, install - then renewal loops back</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B18"/><stop offset=".55" stop-color="#0C1230"/><stop offset="1" stop-color="#131A3E"/></linearGradient>
+<linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".04" stroke-width="1"/></pattern>
+<radialGradient id="g1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7C3AED" stop-opacity=".5"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient><radialGradient id="g2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#06B6D4" stop-opacity=".4"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; } </style>
+</defs>
+<rect width="1200" height="292" fill="url(#bg)"/>
+<rect width="1200" height="292" fill="url(#grid)"/>
+<ellipse cx="150" cy="30" rx="320" ry="180" fill="url(#g1)" opacity=".5"/>
+<ellipse cx="1060" cy="280" rx="320" ry="180" fill="url(#g2)" opacity=".4"/>
+<rect x="19" y="66" width="172" height="132" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<circle cx="105.0" cy="106" r="23" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".38"/>
+<g transform="translate(93.0 94)" fill="none" stroke="#A78BFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 20a8 8 0 0 1 16 0"/></g>
+<text class="s" x="105.0" y="152" text-anchor="middle" font-size="16" font-weight="700" fill="#F0F6FC">account</text>
+<text class="s" x="105.0" y="174" text-anchor="middle" font-size="11.5" fill="#8B94A8">new · a8f3c21</text>
+<path d="M195 132.0h12" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round"/>
+<path d="M205 128.0l5 4-5 4" fill="none" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="217" y="66" width="172" height="132" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<circle cx="303.0" cy="106" r="23" fill="#F472B6" fill-opacity=".14" stroke="#F472B6" stroke-opacity=".38"/>
+<g transform="translate(291.0 94)" fill="none" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8l4 4v12H4V4z"/><path d="M8 12h8M8 16h5"/></g>
+<text class="s" x="303.0" y="152" text-anchor="middle" font-size="16" font-weight="700" fill="#F0F6FC">order</text>
+<text class="s" x="303.0" y="174" text-anchor="middle" font-size="11.5" fill="#8B94A8">1 domain</text>
+<path d="M393 132.0h12" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round"/>
+<path d="M403 128.0l5 4-5 4" fill="none" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="415" y="66" width="172" height="132" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<circle cx="501.0" cy="106" r="23" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".38"/>
+<g transform="translate(489.0 94)" fill="none" stroke="#F59E0B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></g>
+<text class="s" x="501.0" y="152" text-anchor="middle" font-size="16" font-weight="700" fill="#F0F6FC">challenge</text>
+<text class="s" x="501.0" y="174" text-anchor="middle" font-size="11.5" fill="#8B94A8">http-01 or dns-01</text>
+<path d="M591 132.0h12" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round"/>
+<path d="M601 128.0l5 4-5 4" fill="none" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="613" y="66" width="172" height="132" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<circle cx="699.0" cy="106" r="23" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".38"/>
+<g transform="translate(687.0 94)" fill="none" stroke="#22D3EE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12l3 3 5-6"/></g>
+<text class="s" x="699.0" y="152" text-anchor="middle" font-size="16" font-weight="700" fill="#F0F6FC">validate</text>
+<text class="s" x="699.0" y="174" text-anchor="middle" font-size="11.5" fill="#8B94A8">1 of 1 authorized</text>
+<path d="M789 132.0h12" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round"/>
+<path d="M799 128.0l5 4-5 4" fill="none" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="811" y="66" width="172" height="132" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<circle cx="897.0" cy="106" r="23" fill="#34D399" fill-opacity=".14" stroke="#34D399" stroke-opacity=".38"/>
+<g transform="translate(885.0 94)" fill="none" stroke="#34D399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></g>
+<text class="s" x="897.0" y="152" text-anchor="middle" font-size="16" font-weight="700" fill="#F0F6FC">certificate</text>
+<text class="s" x="897.0" y="174" text-anchor="middle" font-size="11.5" fill="#8B94A8">ECDSA P-256, 0600 key</text>
+<path d="M987 132.0h12" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round"/>
+<path d="M997 128.0l5 4-5 4" fill="none" stroke="#3B4A6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1009" y="66" width="172" height="132" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<circle cx="1095.0" cy="106" r="23" fill="#60A5FA" fill-opacity=".14" stroke="#60A5FA" stroke-opacity=".38"/>
+<g transform="translate(1083.0 94)" fill="none" stroke="#60A5FA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/></g>
+<text class="s" x="1095.0" y="152" text-anchor="middle" font-size="16" font-weight="700" fill="#F0F6FC">install</text>
+<text class="s" x="1095.0" y="174" text-anchor="middle" font-size="11.5" fill="#8B94A8">timer or cron</text>
+<path d="M1095.0 198 V232 H303.0 V198" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="6 6" stroke-linecap="round"/>
+<path d="M299.0 212l4-6 4 6" fill="none" stroke="#8B5CF6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="513.0" y="217" width="372" height="30" rx="15" fill="#0B1120" stroke="#8B5CF6" stroke-opacity=".45"/>
+<text class="s" x="699.0" y="237" text-anchor="middle" font-size="13.5" font-weight="600" fill="#C4B5FD">renew --all on the CA's schedule, then order again</text>
+<rect x=".5" y=".5" width="1199" height="291" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</svg>

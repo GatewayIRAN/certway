@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 236" width="1200" height="236" role="img" aria-label="certway guarantees: nothing phones home, keys stay yours, no unsafe code, ambiguity is refused">
+<title>certway guarantees: nothing phones home, keys stay yours, no unsafe code, ambiguity is refused</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B18"/><stop offset=".55" stop-color="#0C1230"/><stop offset="1" stop-color="#131A3E"/></linearGradient>
+<linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".04" stroke-width="1"/></pattern>
+<radialGradient id="t1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#06B6D4" stop-opacity=".35"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; } </style>
+</defs>
+<rect width="1200" height="236" fill="url(#bg)"/>
+<rect width="1200" height="236" fill="url(#grid)"/>
+<ellipse cx="1120" cy="10" rx="300" ry="170" fill="url(#t1)" opacity=".4"/>
+<rect x="12" y="34" width="276" height="168" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="32" y="54" width="44" height="44" rx="13" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".38"/>
+<g transform="translate(42.0 64.0) scale(1.0)" fill="none" stroke="#22D3EE" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0 0)"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/><path d="M3 3l18 18"/></g></g>
+<text class="s" x="32" y="126" font-size="16.5" font-weight="700" fill="#F0F6FC">Nothing phones home</text>
+<text class="s" x="32" y="148" font-size="12.5" fill="#93A0B4">No analytics, no version check,</text>
+<text class="s" x="32" y="165" font-size="12.5" fill="#93A0B4">no crash upload. One host only:</text>
+<text class="s" x="32" y="182" font-size="12.5" font-weight="600" fill="#22D3EE">the CA you named</text>
+<rect x="312" y="34" width="276" height="168" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="332" y="54" width="44" height="44" rx="13" fill="#34D399" fill-opacity=".14" stroke="#34D399" stroke-opacity=".38"/>
+<g transform="translate(342.0 64.0) scale(1.0)" fill="none" stroke="#34D399" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0 0)"><circle cx="8" cy="15" r="4"/><path d="M11 12l9-9M17 6l2 2M14 9l2 2"/></g></g>
+<text class="s" x="332" y="126" font-size="16.5" font-weight="700" fill="#F0F6FC">Keys stay where you put them</text>
+<text class="s" x="332" y="148" font-size="12.5" fill="#93A0B4">Zeroized on drop, 0600 files,</text>
+<text class="s" x="332" y="165" font-size="12.5" fill="#93A0B4">0700 directories, no hidden</text>
+<text class="s" x="332" y="182" font-size="12.5" font-weight="600" fill="#34D399">state directory you did not ask for</text>
+<rect x="612" y="34" width="276" height="168" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="632" y="54" width="44" height="44" rx="13" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".38"/>
+<g transform="translate(642.0 64.0) scale(1.0)" fill="none" stroke="#A78BFA" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0 0)"><path d="M12 3l8 3v6c0 5-3.4 8.2-8 9-4.6-.8-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></g></g>
+<text class="s" x="632" y="126" font-size="16.5" font-weight="700" fill="#F0F6FC">No unsafe, by the compiler</text>
+<text class="s" x="632" y="148" font-size="12.5" fill="#93A0B4">forbid(unsafe_code) in the core</text>
+<text class="s" x="632" y="165" font-size="12.5" fill="#93A0B4">crate - a bad ACME response</text>
+<text class="s" x="632" y="182" font-size="12.5" font-weight="600" fill="#A78BFA">cannot corrupt the heap</text>
+<rect x="912" y="34" width="276" height="168" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="932" y="54" width="44" height="44" rx="13" fill="#F59E0B" fill-opacity=".14" stroke="#F59E0B" stroke-opacity=".38"/>
+<g transform="translate(942.0 64.0) scale(1.0)" fill="none" stroke="#F59E0B" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><g transform="translate(0 0)"><circle cx="12" cy="12" r="9"/><path d="M9.2 9a3 3 0 0 1 5.6 1c0 2-2.8 2.3-2.8 4"/><path d="M12 17.5h.01"/></g></g>
+<text class="s" x="932" y="126" font-size="16.5" font-weight="700" fill="#F0F6FC">Ambiguity is refused</text>
+<text class="s" x="932" y="148" font-size="12.5" fill="#93A0B4">If certway cannot say which</text>
+<text class="s" x="932" y="165" font-size="12.5" fill="#93A0B4">server block it found, it</text>
+<text class="s" x="932" y="182" font-size="12.5" font-weight="600" fill="#F59E0B">changes nothing, and says why</text>
+<rect x=".5" y=".5" width="1199" height="235" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</svg>

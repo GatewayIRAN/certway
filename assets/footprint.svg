@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="system dependencies required on the box: certway none, caddy openssl usually, certbot openssl and python libs, acme.sh curl openssl cron, cert-manager a Kubernetes cluster">
+<title>system dependencies required on the box: certway none, caddy openssl usually, certbot openssl and python libs, acme.sh curl openssl cron, cert-manager a Kubernetes cluster</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B18"/><stop offset=".55" stop-color="#0C1230"/><stop offset="1" stop-color="#131A3E"/></linearGradient>
+<linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".04" stroke-width="1"/></pattern>
+<radialGradient id="f1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#06B6D4" stop-opacity=".35"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; } </style>
+</defs>
+<rect width="1200" height="300" fill="url(#bg)"/>
+<rect width="1200" height="300" fill="url(#grid)"/>
+<ellipse cx="1140" cy="290" rx="320" ry="180" fill="url(#f1)" opacity=".4"/>
+<text class="s" x="40" y="52" font-size="19" font-weight="800" fill="#F0F6FC">What must already be on the box</text>
+<text class="s" x="40" y="76" font-size="13" fill="#8B94A8">system dependencies, before the tool can run - the same facts as the table below</text>
+<text class="s" x="40" y="131" font-size="15" font-weight="700" fill="#F0F6FC">certway</text>
+<text class="s" x="210" y="131" font-size="12.5" fill="#93A0B4">none</text>
+<text class="s" x="360" y="132" font-size="13" font-weight="700" fill="#34D399">nothing to install</text>
+<text class="s" x="372" y="132" font-size="12" fill="#7D8590">one static binary, nothing to link against</text>
+<text class="s" x="40" y="167" font-size="15" font-weight="700" fill="#F0F6FC">certbot</text>
+<text class="s" x="210" y="167" font-size="12.5" fill="#93A0B4">openssl · python libs</text>
+<rect x="360" y="152" width="96" height="22" rx="6" fill="#F59E0B" fill-opacity="0.85"/>
+<rect x="464" y="152" width="96" height="22" rx="6" fill="#F59E0B" fill-opacity="0.34"/>
+<text class="s" x="40" y="203" font-size="15" font-weight="700" fill="#F0F6FC">caddy</text>
+<text class="s" x="210" y="203" font-size="12.5" fill="#93A0B4">openssl (usually)</text>
+<rect x="360" y="188" width="96" height="22" rx="6" fill="#60A5FA" fill-opacity="0.85"/>
+<text class="s" x="40" y="239" font-size="15" font-weight="700" fill="#F0F6FC">acme.sh</text>
+<text class="s" x="210" y="239" font-size="12.5" fill="#93A0B4">curl · openssl · cron</text>
+<rect x="360" y="224" width="96" height="22" rx="6" fill="#F472B6" fill-opacity="0.85"/>
+<rect x="464" y="224" width="96" height="22" rx="6" fill="#F472B6" fill-opacity="0.34"/>
+<rect x="568" y="224" width="96" height="22" rx="6" fill="#F472B6" fill-opacity="0.34"/>
+<text class="s" x="40" y="275" font-size="15" font-weight="700" fill="#F0F6FC">cert-manager</text>
+<text class="s" x="210" y="275" font-size="12.5" fill="#93A0B4">a Kubernetes cluster</text>
+<rect x="360" y="260" width="96" height="22" rx="6" fill="#EF4444" fill-opacity="0.85"/>
+<rect x="464" y="260" width="96" height="22" rx="6" fill="#EF4444" fill-opacity="0.34"/>
+<rect x="568" y="260" width="96" height="22" rx="6" fill="#EF4444" fill-opacity="0.34"/>
+<rect x="672" y="260" width="96" height="22" rx="6" fill="#EF4444" fill-opacity="0.34"/>
+<rect x="776" y="260" width="96" height="22" rx="6" fill="#EF4444" fill-opacity="0.34"/>
+<text class="s" x="892" y="276" font-size="12" fill="#7D8590">a control plane, not a package</text>
+<rect x=".5" y=".5" width="1199" height="299" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</svg>

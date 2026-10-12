@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="three ways to install certway: one-line installer, single release file, or build from source">
+<title>three ways to install certway: one-line installer, single release file, or build from source</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B18"/><stop offset=".55" stop-color="#0C1230"/><stop offset="1" stop-color="#131A3E"/></linearGradient>
+<linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".04" stroke-width="1"/></pattern>
+<radialGradient id="i1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7C3AED" stop-opacity=".4"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient><radialGradient id="i2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#06B6D4" stop-opacity=".3"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; } </style>
+</defs>
+<rect width="1200" height="250" fill="url(#bg)"/>
+<rect width="1200" height="250" fill="url(#grid)"/>
+<ellipse cx="60" cy="240" rx="320" ry="180" fill="url(#i1)" opacity=".45"/>
+<ellipse cx="1150" cy="10" rx="300" ry="170" fill="url(#i2)" opacity=".35"/>
+<rect x="12" y="30" width="376" height="190" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="32" y="48" width="44" height="44" rx="13" fill="#22D3EE" fill-opacity=".14" stroke="#22D3EE" stroke-opacity=".38"/>
+<g transform="translate(42.0 58.0) scale(1.0)" fill="none" stroke="#22D3EE" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-5-6-5"/><path d="M12 19h8"/></g>
+<text class="s" x="90" y="70" font-size="19" font-weight="700" fill="#F0F6FC">One line</text>
+<text class="s" x="90" y="90" font-size="12.5" fill="#8B94A8">The installer picks your target</text>
+<rect x="32" y="112" width="336" height="62" rx="10" fill="#080D1D" stroke="#FFFFFF" stroke-opacity=".07"/>
+<text class="m" x="44" y="136" font-size="11.6" fill="#7DE8FF" textLength="312" lengthAdjust="spacingAndGlyphs">curl --proto '=https' --tlsv1.2 \</text>
+<text class="m" x="44" y="158" font-size="11.6" fill="#C9D4E8" textLength="312" lengthAdjust="spacingAndGlyphs">  -sSfL …/certway-installer.sh | sh</text>
+<rect x="32" y="186" width="126" height="22" rx="11" fill="#22D3EE" fill-opacity=".13"/>
+<text class="m" x="43" y="201" font-size="11.5" font-weight="600" fill="#22D3EE">linux · macos</text>
+<rect x="412" y="30" width="376" height="190" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="432" y="48" width="44" height="44" rx="13" fill="#A78BFA" fill-opacity=".14" stroke="#A78BFA" stroke-opacity=".38"/>
+<g transform="translate(442.0 58.0) scale(1.0)" fill="none" stroke="#A78BFA" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 19h16"/></g>
+<text class="s" x="490" y="70" font-size="19" font-weight="700" fill="#F0F6FC">One file</text>
+<text class="s" x="490" y="90" font-size="12.5" fill="#8B94A8">No installer, no dependencies</text>
+<rect x="432" y="112" width="336" height="62" rx="10" fill="#080D1D" stroke="#FFFFFF" stroke-opacity=".07"/>
+<text class="m" x="444" y="136" font-size="11.6" fill="#7DE8FF" textLength="312" lengthAdjust="spacingAndGlyphs">certway-x86_64-unknown-linux-musl</text>
+<text class="m" x="444" y="158" font-size="11.6" fill="#C9D4E8" textLength="312" lengthAdjust="spacingAndGlyphs">tar xzf … &amp;&amp; sudo mv certway /usr/local/bin</text>
+<rect x="432" y="186" width="126" height="22" rx="11" fill="#A78BFA" fill-opacity=".13"/>
+<text class="m" x="443" y="201" font-size="11.5" font-weight="600" fill="#A78BFA">static · musl</text>
+<rect x="812" y="30" width="376" height="190" rx="16" fill="#0E1429" stroke="#FFFFFF" stroke-opacity=".09"/>
+<rect x="832" y="48" width="44" height="44" rx="13" fill="#34D399" fill-opacity=".14" stroke="#34D399" stroke-opacity=".38"/>
+<g transform="translate(842.0 58.0) scale(1.0)" fill="none" stroke="#34D399" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6l-5 6 5 6"/><path d="M16 6l5 6-5 6"/></g>
+<text class="s" x="890" y="70" font-size="19" font-weight="700" fill="#F0F6FC">From source</text>
+<text class="s" x="890" y="90" font-size="12.5" fill="#8B94A8">cargo build --release, that is all</text>
+<rect x="832" y="112" width="336" height="62" rx="10" fill="#080D1D" stroke="#FFFFFF" stroke-opacity=".07"/>
+<text class="m" x="844" y="136" font-size="11.6" fill="#7DE8FF" textLength="312" lengthAdjust="spacingAndGlyphs">git clone https://github.com/GatewayIRAN/certway</text>
+<text class="m" x="844" y="158" font-size="11.6" fill="#C9D4E8" textLength="312" lengthAdjust="spacingAndGlyphs">cd certway &amp;&amp; cargo build --release</text>
+<rect x="832" y="186" width="94" height="22" rx="11" fill="#34D399" fill-opacity=".13"/>
+<text class="m" x="843" y="201" font-size="11.5" font-weight="600" fill="#34D399">rust 1.96</text>
+<rect x=".5" y=".5" width="1199" height="249" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</svg>

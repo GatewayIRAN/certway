@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="certway — HTTPS in one command">
+<title>certway — HTTPS in one command</title>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070B18"/><stop offset=".55" stop-color="#0C1230"/><stop offset="1" stop-color="#131A3E"/></linearGradient>
+<linearGradient id="mark" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+<pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#FFFFFF" stroke-opacity=".04" stroke-width="1"/></pattern>
+<linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F7F9FF"/><stop offset=".5" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EDF1FF"/></linearGradient>
+<linearGradient id="word" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="1" stop-color="#312E81"/></linearGradient>
+<radialGradient id="a1" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#7C3AED" stop-opacity=".28"/><stop offset="1" stop-color="#7C3AED" stop-opacity="0"/></radialGradient>
+<radialGradient id="a2" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#06B6D4" stop-opacity=".24"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+<radialGradient id="a3" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#DB2777" stop-opacity=".18"/><stop offset="1" stop-color="#DB2777" stop-opacity="0"/></radialGradient>
+<filter id="soft" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#1E293B" flood-opacity=".22"/></filter>
+<clipPath id="frame"><rect width="1200" height="400" rx="28"/></clipPath>
+<clipPath id="cardclip"><rect width="280" height="216" rx="20"/></clipPath>
+<style> .s { font-family: 'Segoe UI', system-ui, -apple-system, Roboto, 'Helvetica Neue', Arial, sans-serif; } .m { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', 'Liberation Mono', monospace; } </style>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="400" fill="url(#lg)"/>
+<rect width="1200" height="400" fill="url(#grid)"/>
+<ellipse cx="1030" cy="40" rx="430" ry="300" fill="url(#a1)"/>
+<ellipse cx="120" cy="400" rx="380" ry="260" fill="url(#a2)"/>
+<ellipse cx="640" cy="380" rx="300" ry="200" fill="url(#a3)"/>
+<g transform="translate(72 108)" filter="url(#soft)">
+<rect width="96" height="96" rx="26" fill="url(#mark)"/>
+<path d="M32 46V34a16 16 0 0 1 32 0v12" fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+<rect x="22" y="46" width="52" height="40" rx="10" fill="#FFFFFF"/>
+<path d="M52 54l-9 13h7l-4 11 12-15h-7l5-9z" fill="#7C3AED"/>
+</g>
+<text class="s" x="206" y="188" font-size="88" font-weight="800" letter-spacing="-3" fill="url(#word)">certway</text>
+<circle cx="576" cy="160" r="9" fill="#0891B2"/>
+<text class="s" x="208" y="238" font-size="30" font-weight="600" fill="#374151">HTTPS in <tspan fill="#0891B2">one command.</tspan></text>
+<text class="s" x="209" y="278" font-size="16.5" font-weight="600" letter-spacing="3.2" fill="#6B7280" textLength="560" lengthAdjust="spacingAndGlyphs">ACME  ·  LET'S ENCRYPT  ·  STATIC  RUST  BINARY</text>
+<g transform="translate(846 92) rotate(-5 140 110)" filter="url(#soft)">
+<rect width="280" height="216" rx="20" fill="#FFFFFF" stroke="#D7DCE8"/>
+<rect x="24" y="26" width="44" height="52" rx="8" fill="none" stroke="#9CA3AF" stroke-width="3"/>
+<path d="M32 40h28M32 50h28M32 60h18" stroke="#9CA3AF" stroke-width="3" stroke-linecap="round"/>
+<text class="s" x="84" y="46" font-size="17" font-weight="700" fill="#111827">example.com</text>
+<text class="s" x="84" y="70" font-size="13" font-weight="600" letter-spacing="1.6" fill="#6B7280">TLS CERTIFICATE</text>
+<rect x="24" y="100" width="232" height="1.5" fill="#E5E7EB"/>
+<text class="s" x="24" y="132" font-size="14" fill="#374151">ECDSA P-256 · expires 90d</text>
+<text class="s" x="24" y="156" font-size="14" fill="#374151">renews on the CA's schedule</text>
+<g transform="translate(24 172)">
+<rect width="150" height="28" rx="14" fill="#22C55E" fill-opacity=".14"/>
+<path d="M14 14l5 5 9-11" fill="none" stroke="#16A34A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="s" x="36" y="19" font-size="13.5" font-weight="700" fill="#16A34A">issued in 8.4s</text>
+</g>
+<g clip-path="url(#cardclip)">
+<rect x="-70" y="-70" width="64" height="360" fill="#FFFFFF" opacity=".9" transform="rotate(16)"/>
+</g>
+</g>
+<g transform="translate(842 322)" filter="url(#soft)">
+<rect width="300" height="46" rx="14" fill="#0B1120"/>
+<text class="m" x="18" y="29" font-size="15.5" textLength="252" lengthAdjust="spacingAndGlyphs"><tspan fill="#22D3EE">$ </tspan><tspan fill="#E2E8F0">certway issue example.com</tspan></text>
+</g>
+</g>
+<rect x=".5" y=".5" width="1199" height="399" rx="27.5" fill="none" stroke="#CBD5E1"/>
+<rect x=".5" y=".5" width="1199" height="399" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity=".1"/>
+</svg>
