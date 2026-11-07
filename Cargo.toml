@@ -6,7 +6,7 @@ resolver = "2"
 version = "1.0.0"
 edition = "2021"
 license = "MIT"
-repository = "https://github.com/GatewayIRAN/certway"
+repository = "https://github.com/MrAryanCode/certway"
 
 [workspace.dependencies]
 rustls = { version = "0.23.43", default-features = false, features = ["ring", "std", "tls12"] }

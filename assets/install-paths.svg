@@ -37,7 +37,7 @@
 <text class="s" x="890" y="70" font-size="19" font-weight="700" fill="#F0F6FC">From source</text>
 <text class="s" x="890" y="90" font-size="12.5" fill="#8B94A8">cargo build --release, that is all</text>
 <rect x="832" y="112" width="336" height="62" rx="10" fill="#080D1D" stroke="#FFFFFF" stroke-opacity=".07"/>
-<text class="m" x="844" y="136" font-size="11.6" fill="#7DE8FF" textLength="312" lengthAdjust="spacingAndGlyphs">git clone https://github.com/GatewayIRAN/certway</text>
+<text class="m" x="844" y="136" font-size="11.6" fill="#7DE8FF" textLength="312" lengthAdjust="spacingAndGlyphs">git clone https://github.com/MrAryanCode/certway</text>
 <text class="m" x="844" y="158" font-size="11.6" fill="#C9D4E8" textLength="312" lengthAdjust="spacingAndGlyphs">cd certway &amp;&amp; cargo build --release</text>
 <rect x="832" y="186" width="94" height="22" rx="11" fill="#34D399" fill-opacity=".13"/>
 <text class="m" x="843" y="201" font-size="11.5" font-weight="600" fill="#34D399">rust 1.96</text>

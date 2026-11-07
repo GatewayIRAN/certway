@@ -44,4 +44,4 @@ See the README's "What it does not do yet" section. In short: ECDSA only
 not yet implemented, and six commands (`check`, `doctor`, `import`,
 `revoke`, `delete`, `account`) are not yet built.
 
-[0.1.0]: https://github.com/GatewayIRAN/certway/releases/tag/v0.1.0
+[0.1.0]: https://github.com/MrAryanCode/certway/releases/tag/v0.1.0

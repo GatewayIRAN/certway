@@ -7,9 +7,9 @@
 
 <br><br>
 
-[![Release](https://img.shields.io/github/v/release/GatewayIRAN/certway?sort=semver&style=for-the-badge&logo=github&label=release&labelColor=0D1117)](https://github.com/GatewayIRAN/certway/releases)
-<a href="https://github.com/GatewayIRAN/certway/actions/workflows/release.yml"><img src="https://github.com/GatewayIRAN/certway/actions/workflows/release.yml/badge.svg" alt="build: passing" height="28"></a>
-[![License](https://img.shields.io/github/license/GatewayIRAN/certway?style=for-the-badge&label=license&labelColor=0D1117)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/MrAryanCode/certway?sort=semver&style=for-the-badge&logo=github&label=release&labelColor=0D1117)](https://github.com/MrAryanCode/certway/releases)
+<a href="https://github.com/MrAryanCode/certway/actions/workflows/release.yml"><img src="https://github.com/MrAryanCode/certway/actions/workflows/release.yml/badge.svg" alt="build: passing" height="28"></a>
+[![License](https://img.shields.io/github/license/MrAryanCode/certway?style=for-the-badge&label=license&labelColor=0D1117)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-linux%20%C2%B7%20macos-6e7781?style=for-the-badge)
 ![Binary](https://img.shields.io/badge/binary-2.1%20MB%20static-1f6feb?style=for-the-badge)
 ![Rust](https://img.shields.io/badge/rust-1.96.0-orange?style=for-the-badge&logo=rust&labelColor=0D1117)
@@ -68,10 +68,10 @@ can be held against it.
 <img src="assets/install-paths.svg" alt="Three ways to install certway: one-line installer, a single release file, or build from source" width="100%">
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSfL https://github.com/GatewayIRAN/certway/releases/latest/download/certway-installer.sh | sh
+curl --proto '=https' --tlsv1.2 -sSfL https://github.com/MrAryanCode/certway/releases/latest/download/certway-installer.sh | sh
 ```
 
-Or take a single file off the [releases page](https://github.com/GatewayIRAN/certway/releases) — no installer, no dependencies:
+Or take a single file off the [releases page](https://github.com/MrAryanCode/certway/releases) — no installer, no dependencies:
 
 | Platform | Targets | Notes |
 |---|---|---|
@@ -340,7 +340,7 @@ This software has not been audited and comes with no warranty — read the table
 ## 🧱 Building and testing
 
 ```bash
-git clone https://github.com/GatewayIRAN/certway
+git clone https://github.com/MrAryanCode/certway
 cd certway
 cargo build --release
 ```
@@ -399,12 +399,12 @@ Nothing. No OpenSSL, no Python — one static binary. The comparison table state
 ## 🤝 Contributing and security
 
 - [CONTRIBUTING.md](CONTRIBUTING.md) — how a change gets merged; `git commit -s`, DCO not CLA.
-- [Code of conduct](https://github.com/GatewayIRAN/.github/blob/main/CODE_OF_CONDUCT.md)
+- [Code of conduct](https://github.com/MrAryanCode/.github/blob/main/CODE_OF_CONDUCT.md)
 - Found a vulnerability? **Do not open a public issue** — use [private vulnerability reporting](../../security/advisories/new).
 
 ## 📜 License
 
-[MIT](LICENSE) — issues and pull requests welcome at [github.com/GatewayIRAN/certway](https://github.com/GatewayIRAN/certway). The pull-request gate is the same `./scripts/test.sh`; see [CONTRIBUTING.md](CONTRIBUTING.md).
+[MIT](LICENSE) — issues and pull requests welcome at [github.com/MrAryanCode/certway](https://github.com/MrAryanCode/certway). The pull-request gate is the same `./scripts/test.sh`; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 <div align="center">
 <br>
@@ -412,5 +412,5 @@ Nothing. No OpenSSL, no Python — one static binary. The comparison table state
 <br><br>
 <img src="assets/mark.svg" alt="certway logo" width="46">
 <br><br>
-<sub>certway · GatewayIRAN · MIT · built on ring and rustls, with a dislike of daemons</sub>
+<sub>certway · MrAryanCode · MIT · built on ring and rustls, with a dislike of daemons</sub>
 </div>
